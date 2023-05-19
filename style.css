@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    font-family: 'Bad Script', 'cursive';
+}
+
+section {
+    text-align: center;
+    padding: 30px;
+    background: #a2f9dc38;
+}
+
+#field {
+    padding: 30px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: auto;
+}
+
+.cell {
+    font-family: 'Finger Paint', 'cursive';
+    color: #232d55;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #6e92a3;
+    cursor: pointer;
+    line-height: 100px;
+    background: #e7cfff;
+}
+
+#sidebar {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#player {
+    flex: 1;
+}
+
+#turns {
+    flex: 1;
+}
+
+#status {
+    flex: 1;
+}
+
+#player1,
+#player2 {
+    box-sizing: border-box;
+    background: #d0bdf4;
+    color: #061061;
+    border-radius: 4px;
+    padding: 10px 0;
+    margin: 0 0 10px 0;
+}
+
+#titleTurn {
+    font-size: .8em;
+}
+
+#numberTurn {
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Finger Paint', 'cursive';
+    margin: 0;
+}
+
+#restart {
+    flex: 1;
+    margin: 5px auto;
+    padding: 5px 10px;
+    font-size: 18px;
+    display: block;
+    background: linear-gradient(#4d4d4d, #222);
+    border: 1px solid #222;
+    color: #fff;
+    text-shadow: 0px 1px 0 #000;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px !important;
+}
+
+button:hover {
+    font-size: 22px !important;
+    font-weight: bold;
+    color: #3f51b5 !important;
+    padding: 5px 10px !important;
+    margin: 0px;
+}
